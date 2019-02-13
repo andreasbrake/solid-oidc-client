@@ -1,0 +1,21 @@
+{
+  "name": "solid-oidc-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc index.ts --skipLibCheck",
+    "start": "ts-node --require dotenv/config ./index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jsrsasign": "^8.0.12"
+  },
+  "devDependencies": {
+    "@types/node": "^11.9.3",
+    "dotenv": "^6.2.0",
+    "ts-node": "^8.0.2",
+    "typescript": "^3.3.3"
+  }
+}
